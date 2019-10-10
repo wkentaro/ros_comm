@@ -30,6 +30,7 @@ Message Filter Objects
 ======================
 """
 
+from functools import reduce
 import itertools
 import threading
 import rospy
